@@ -1,0 +1,37 @@
+name: emotion-explanations
+channels:
+  - conda-forge
+  - pytorch
+  - defaults
+
+dependencies:
+  - python=3.10
+  - pip
+  - numpy=1.26.4
+  - pandas
+  - scikit-learn
+  - scipy
+  - matplotlib
+  - jupyterlab
+  - ipykernel
+  - spacy
+
+  # PyTorch + CUDA 12 (matches your .venv: torch==2.8.0, CUDA 12 libs installed)
+  - pytorch=2.8
+  - torchvision=0.23
+  - pytorch-cuda=12.1  # adjust if needed
+
+  - pip:
+      - transformers==4.57.1
+      - tokenizers==0.22.1
+      - datasets==4.2.0
+      - shap==0.49.1
+      - accelerate==1.11.0
+      - sentencepiece
+      - tqdm
+      - label-studio==1.21.0
+      - label-studio-sdk==2.0.4
+      - jsonlines
+      - nltk
+      - seaborn
+      - pillow
