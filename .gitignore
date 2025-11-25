@@ -63,9 +63,7 @@ venv.bak/
 .ipynb_checkpoints
 
 # Data files - IMPORTANT for your project
-data/raw/
-data/*.csv
-data/*.jsonl
+
 emotion_project
 # Models
 models/
